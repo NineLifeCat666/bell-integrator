@@ -1,0 +1,19 @@
+Todo
+                        Тесты
+                        UI
+                        successfulOpenPerformanceTestingTest
+1. Тест зайти на сайт -> проверить что я на сайте (logo)
+2. Перейти на Quality Assurance -> далее перейти в Performance Testing - провреить что я на нужной вкладке (Performance Testing Services)
+
+                        successfulOpenAutomatedLabTest
+1. Тест зайти на сайт -> проверить что я на сайте (logo)
+2. Нажать на Меню -> провреить что менющка открылась (AutomatedLab)
+3. Перейти на AutomatedLab -> проверить что я нахожусь на нужной странице
+
+                        //successfulRegistrationTest
+                        successfulSearchTest
+
+1. Тест зайти на сайт -> проверить что я на сайте (logo)
+2. Ввести в поле  поиска Test Consulting и нажать Enter -> проверить что в поиске нашлось Test Consulting
+3. Перейти на страницу, убедиться что я на правильной странице
+
