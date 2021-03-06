@@ -14,7 +14,7 @@ import static io.qameta.allure.Allure.step;
 
 
 @Feature("UI search tests")
-@Story("Main page bellintegrator")
+@Story("ui for bellintegrator.com")
 @Tag("ui")
 public class BellIntegratorTests extends TestBaseUI {
     @Test
