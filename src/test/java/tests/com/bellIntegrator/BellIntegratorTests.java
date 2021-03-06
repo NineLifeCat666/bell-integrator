@@ -1,6 +1,7 @@
 package tests.com.bellIntegrator;
 
 import com.codeborne.selenide.Condition;
+import io.qameta.allure.AllureId;
 import io.qameta.allure.Feature;
 import io.qameta.allure.Story;
 import org.junit.jupiter.api.DisplayName;
@@ -18,6 +19,7 @@ import static io.qameta.allure.Allure.step;
 public class BellIntegratorTests extends TestBaseUI {
     @Test
     @DisplayName("Successful open OSS/BSS page")
+    @AllureId("1816")
     void  successfulOpenOssBssTest() {
         step("Проверяем наличие текста Bell Integrator в футере сайта", () -> {
             $(".footer__bottom").shouldHave(Condition.text("Bell Integrator"));
@@ -32,6 +34,7 @@ public class BellIntegratorTests extends TestBaseUI {
 
     @Test
     @DisplayName("Successful open AutomatedLab page")
+    @AllureId("1815")
     void successfulOpenAutomatedLabTest() {
         step("Нажимаем на кнопку меню на главной странице сайта", () -> {
             $("#top-menu").click();
@@ -46,6 +49,7 @@ public class BellIntegratorTests extends TestBaseUI {
 
     @Test
     @DisplayName("Successful Search")
+    @AllureId("1814")
     void successfulSearchTest() {
         step("Открываем контекстное меню поиска", () -> {
             $("#search-open").click();
