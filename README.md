@@ -22,4 +22,5 @@ Java, JUnit5, Rest Assured, Selenide, Allure SE, Allure TestOps, Jira, Selenoid,
 
 
 #Telegram Notifications
+
 <img width="460" alt="Screenshot 2021-03-08 at 11 49 09" src="https://user-images.githubusercontent.com/60185298/110297640-c9468a80-8004-11eb-9445-eea59fcc1f83.png">
