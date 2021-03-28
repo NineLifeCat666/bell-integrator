@@ -11,7 +11,7 @@ public class Steps {
 
     public void assertResponseElementInListUsersTest() {
         given()
-                .spec(Request.spec())// это так принято выносить все?
+                .spec(Request.spec())
                 .when()
                 .get("/users?page=2")
                 .then()
